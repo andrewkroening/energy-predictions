@@ -1,0 +1,8 @@
+black
+pylint
+ipython
+pandas
+numpy
+requests
+matplotlib
+openpyxl
