@@ -10,7 +10,7 @@ This project uses Microsoft Azure Machine Learning resources to construct a fore
 
 * [Estimated and Real Population figures from the U.S. Census Bureau](https://www2.census.gov/programs-surveys/decennial/2020/data/apportionment/population-change-data-table.xlsx)
 
-* Climate and Temperature Data (future)
+* [Climate and Temperature Data] (https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/national/time-series/110/tavg/1/12/1940-2022?base_prd=true&begbaseyear=1901&endbaseyear=2000)
 
 * Registration figures for Battery Electric and Plug-in Hybrid Electric Vehicles in the U.S. (future)
 
