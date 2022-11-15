@@ -4,7 +4,7 @@
 
 This project uses Microsoft Azure Machine Learning resources to construct a forecast model for energy demand in the United States. It's not intended for serious use, so don't treat it as such. To construct the model, I cherry-picked a few data sources that seemed interesting:
 
-* [U.S. Energy Consumption and Production Data](https://www.eia.gov/totalenergy/data/browser/csv.php?tbl=T01.01)
+* [U.S. Energy Net Electricty Production Data](https://www.eia.gov/totalenergy/data/browser/?tbl=T07.02A)
 
 * [Fuel Economy of the average vehicle in the U.S.](https://www.eia.gov/totalenergy/data/browser/csv.php?tbl=T01.08)
 
@@ -12,7 +12,7 @@ This project uses Microsoft Azure Machine Learning resources to construct a fore
 
 * [Climate and Temperature Data](https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/national/time-series/110/tavg/1/12/1940-2022?base_prd=true&begbaseyear=1901&endbaseyear=2000)
 
-* Registration figures for Battery Electric and Plug-in Hybrid Electric Vehicles in the U.S. (future)
+* [Sales of various Electric Vehicles (Hybrid, Plug-in Hybrid, Battery) in the U.S.](https://www.bts.gov/content/gasoline-hybrid-and-electric-vehicle-sales)
 
 * Numbers of Data Centers operating in the U.S. (future)
 
@@ -34,4 +34,3 @@ In Phase I, I constructed a Machine Learning Workspace in Azure and a repository
 
 Here's a drawing to illustrate what Phase I accomplished:
 <img src="https://github.com/andrewkroening/energy-predictions/blob/6ef76311342997dc1e8e61baa563a4df174d471d/30_intermediate_files/energy_predict_ph1.png" alt="PhaseI" width="1000"/>
-
