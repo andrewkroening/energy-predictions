@@ -16,17 +16,22 @@ This project uses Microsoft Azure Machine Learning resources to construct a fore
 
 * Numbers of Data Centers operating in the U.S. (future)
 
-### Phase II (In-progress)
+### Phase III (In-progress)
 
-For Phase II, I'll be seeking to accomplish a few tasks with the back end data:
-
-* Add energy data via an API call instead of static
+For Phase III, I'll be seeking to accomplish a few tasks with the back end data:
 
 * Add additional data sources
 
-* Switch the data source to tabular from a csv file I uploaded
+* Switch the data source to tabular from a csv file I uploaded using SQL
 
-* Use AutoML to select the ideal model and push to a deployment resource
+### Phase II ([Demo Video](https://youtu.be/Nh-wG2ZLLAs))
+
+In Phase II, I made some changes to the base dataset. I removed energy consumption and changed the source of the energy generation statistics to a different EIA table. This improved readability and interpretability. I also added sales figures for vehicles with a big battery (battery electric, hybrid, plug-in hybrid). With these new figures, I re-ran our ML experiment using Azure AutoML. The results are captured below. In summary, it looks like the AutoML model (VotingEnsemble) performed very well:
+
+
+<img src="https://github.com/andrewkroening/energy-predictions/blob/92fd42ca40d5324b1f52e867e34fe71e17b059b0/30_intermediate_files/forecast_perform.png" alt="PhaseI" width="1000"/>
+
+<img src="https://github.com/andrewkroening/energy-predictions/blob/92fd42ca40d5324b1f52e867e34fe71e17b059b0/30_intermediate_files/feature_rank.png" alt="PhaseI" width="1000"/>
 
 ### Phase I ([Demo video](https://youtu.be/RkAp5NcK8c4))
 
