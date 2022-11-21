@@ -16,6 +16,8 @@ This project uses Microsoft Azure Machine Learning resources to construct a fore
 
 * [Quarterly US GDP Data](https://fred.stlouisfed.org/series/GDP)
 
+* [Quarterly US GNP Data](https://fred.stlouisfed.org/series/GNP)
+
 * Numbers of Data Centers operating in the U.S. - This ultimately was not added, because it was a pain to find a reliable source for this information.
 
 ### Phase III (In-progress)
