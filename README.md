@@ -20,13 +20,12 @@ This project uses Microsoft Azure Machine Learning resources to construct a fore
 
 * Numbers of Data Centers operating in the U.S. - This ultimately was not added, because it was a pain to find a reliable source for this information.
 
-### Phase III (In-progress)
+### Phase III (Demo Video)
 
-For Phase III, I'll be seeking to accomplish a few tasks with the back end data:
+In the last phase of the project, we sought to put all of the tools together that we know so far. The concept would be to ingest data to a databse, use some of that data to train a ML model, deploy said model, and then consume that model and the rest of our data in a Power BI report. In the video, I talk through these steps, and give a few considerations for users of different types to think about before launching into the process. Spoiler: it doesn't totally work for my use case.
 
-* Add additional data sources
-
-* Switch the data source to tabular from a csv file I uploaded using SQL
+Here's a sketch of the idealized pipeline at completion:
+<img src="https://github.com/andrewkroening/energy-predictions/blob/f0f5190336b1a03c45a69116363442c6df7406c0/30_intermediate_files/energy_predict_PHIII.png" alt="PhaseI" width="1000"/>
 
 ### Phase II ([Demo Video](https://youtu.be/Nh-wG2ZLLAs))
 
