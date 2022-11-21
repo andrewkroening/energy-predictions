@@ -14,7 +14,9 @@ This project uses Microsoft Azure Machine Learning resources to construct a fore
 
 * [Sales of various Electric Vehicles (Hybrid, Plug-in Hybrid, Battery) in the U.S.](https://www.bts.gov/content/gasoline-hybrid-and-electric-vehicle-sales)
 
-* Numbers of Data Centers operating in the U.S. (future)
+* [Quarterly US GDP Data](https://fred.stlouisfed.org/series/GDP)
+
+* Numbers of Data Centers operating in the U.S. - This ultimately was not added, because it was a pain to find a reliable source for this information.
 
 ### Phase III (In-progress)
 
