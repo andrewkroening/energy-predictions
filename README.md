@@ -20,7 +20,7 @@ This project uses Microsoft Azure Machine Learning resources to construct a fore
 
 * Numbers of Data Centers operating in the U.S. - This ultimately was not added, because it was a pain to find a reliable source for this information.
 
-### Phase III (Demo Video)
+### Phase III ([Demo Video](https://youtu.be/z0Jt5nhTZUc))
 
 In the last phase of the project, we sought to put all of the tools together that we know so far. The concept would be to ingest data to a databse, use some of that data to train a ML model, deploy said model, and then consume that model and the rest of our data in a Power BI report. In the video, I talk through these steps, and give a few considerations for users of different types to think about before launching into the process. Spoiler: it doesn't totally work for my use case.
 
