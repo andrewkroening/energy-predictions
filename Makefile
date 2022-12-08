@@ -3,9 +3,9 @@ install:
 		pip install -r requirements.txt
 
 lint:
-	pylint --disable=R,C --extension-pkg-whitelist='pydantic' /10_code/*.ipynb
+	pylint --disable=R,C --extension-pkg-whitelist='pydantic' *.py
 
 format:
-	black /10_code/*.ipynb
+	black *.py
 
 all: install lint format
