@@ -3,7 +3,7 @@ install:
 		pip install -r requirements.txt
 
 lint:
-	pylint --disable=R,C --extension-pkg-whitelist='pydantic' eia_call.py
+	pylint --disable=R,C --extension-pkg-whitelist='pydantic' /10_code/*.ipynb
 
 format:
 	black *.py
