@@ -6,6 +6,6 @@ lint:
 	pylint --disable=R,C --extension-pkg-whitelist='pydantic' /10_code/*.ipynb
 
 format:
-	black *.py
+	black /10_code/*.ipynb
 
 all: install lint format
