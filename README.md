@@ -1,4 +1,5 @@
 # Azure AutoML Energy Demand Forecaster
+[![CI/CD Pipeline](https://github.com/andrewkroening/energy-predictions/actions/workflows/main.yml/badge.svg)](https://github.com/andrewkroening/energy-predictions/actions/workflows/main.yml)
 
 ### Introduction
 
